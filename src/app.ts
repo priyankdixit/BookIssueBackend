@@ -13,7 +13,7 @@ const app: Application = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'], // Allow requests from this origin
+  origin: ['http://localhost:3000', 'http://localhost:3001','https://book-issue-frontend-kfigr6i0c-priyank-dixits-projects.vercel.app'], // Allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   credentials: true // If you want to allow cookies/auth headers
 }));
